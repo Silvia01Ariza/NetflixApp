@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NetflixApp</string>
+    <color name="colorPrimary">#E50914</color>       <!-- Rojo Netflix -->
+    <color name="colorPrimaryDark">#B00710</color>   <!-- Rojo oscuro -->
+    <color name="colorAccent">#ffffff</color>        <!-- Blanco -->
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTituloRedes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redes Sociales"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/bebasneue" />
+
+        <!-- Facebook -->
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp" />
+
+        <!-- Instagram -->
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp" />
+
+        <!-- TikTok -->
+        <Button
+            android:id="@+id/btnTikTok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TikTok"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp" />
+
+        <!-- YouTube -->
+        <Button
+            android:id="@+id/btnYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YouTube"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp" />
+
+        <!-- Botón regresar -->
+        <Button
+            android:id="@+id/btnRegresarMenuRedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar al menú"
+            android:backgroundTint="#E50914"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp" />
+
+    </LinearLayout>
+
+</ScrollView>

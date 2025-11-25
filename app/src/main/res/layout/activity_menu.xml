@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menú Principal"
+            android:textColor="#E50914"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- Tema Principal -->
+        <Button
+            android:id="@+id/btnTemaPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema Principal"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Misión y Visión -->
+        <Button
+            android:id="@+id/btnMisionVision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Misión, Visión y Actividad"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Quiénes Somos -->
+        <Button
+            android:id="@+id/btnQuienesSomos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Quiénes Somos?"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Galería -->
+        <Button
+            android:id="@+id/btnGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galería de Productos y Ofertas"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Video -->
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Promocional"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Contacto -->
+        <Button
+            android:id="@+id/btnContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contáctanos"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Redes Sociales -->
+        <Button
+            android:id="@+id/btnRedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Redes Sociales"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Simulación -->
+        <Button
+            android:id="@+id/btnSimulacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulación de Producto"
+            android:background="#E50914"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Cerrar Sesión -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión"
+            android:background="#444444"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.NetflixApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/netflix_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorPrimaryContainer">@color/netflix_red_dark</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- Secundarios -->
+        <item name="colorSecondary">@color/netflix_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Superficies y fondos -->
+        <item name="android:windowBackground">@color/netflix_black</item>
+        <item name="colorSurface">@color/netflix_dark_gray</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Estilo por defecto para todos los botones -->
+        <item name="materialButtonStyle">@style/NetflixButtonStyle</item>
+
+        <!-- Textos -->
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.NetflixApp" parent="Base.Theme.NetflixApp" />
+
+    <!-- Estilo de botones Netflix -->
+    <style name="NetflixButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/netflix_red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

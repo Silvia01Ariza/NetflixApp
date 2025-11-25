@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/netflix_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTituloMisionVision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión y Visión"
+            android:textColor="@color/netflix_red"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Misión -->
+        <TextView
+            android:id="@+id/txtMisionTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misión"
+            android:textColor="@color/netflix_red"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtMisionDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ofrecer entretenimiento global mediante contenido digital innovador y accesible para todos nuestros usuarios, proporcionando experiencias únicas en cada pantalla."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Visión -->
+        <TextView
+            android:id="@+id/txtVisionTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visión"
+            android:textColor="@color/netflix_red"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtVisionDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convertirnos en la plataforma líder mundial en streaming, destacándonos por la calidad, variedad y originalidad de nuestros contenidos, siempre innovando para superar las expectativas del usuario."
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

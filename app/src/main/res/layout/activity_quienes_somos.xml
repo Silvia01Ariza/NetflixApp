@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/netflix_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTituloQuienesSomos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Quiénes Somos?"
+            android:textColor="@color/netflix_red"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Imagen del equipo / integrante -->
+        <ImageView
+            android:id="@+id/imgIntegrante"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:background="@color/netflix_dark_gray"
+            android:padding="6dp"/>
+
+        <!-- Nombre del integrante -->
+        <TextView
+            android:id="@+id/txtNombreIntegrante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integrante Principal"
+            android:textColor="@color/netflix_red"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/txtDescripcionIntegrante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somos un equipo dedicado a ofrecer soluciones tecnológicas innovadoras inspiradas en la experiencia de Netflix. Buscamos crear aplicaciones dinámicas, modernas y eficientes que permitan a los usuarios disfrutar de contenido informativo y funcional con una experiencia visual atractiva."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- Información adicional -->
+        <TextView
+            android:id="@+id/txtInfoEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuestro objetivo es proporcionar una plataforma intuitiva que represente fielmente la identidad de la empresa y facilite la navegación del usuario."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

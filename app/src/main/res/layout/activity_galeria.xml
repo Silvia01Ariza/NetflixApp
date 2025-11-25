@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/netflix_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTituloGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galería de Productos y Ofertas"
+            android:textColor="@color/netflix_red"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Imagen 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/netflix_dark_gray"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgProducto1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto Destacado"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción breve del producto u oferta especial."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Imagen 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/netflix_dark_gray"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgProducto2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oferta Especial"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Promoción destacada y beneficios exclusivos."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Imagen 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/netflix_dark_gray"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgProducto3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nuevo Lanzamiento"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido nuevo y actualizado para los usuarios."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

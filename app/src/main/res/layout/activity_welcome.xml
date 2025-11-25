@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#000000">
+
+    <ImageView
+        android:src="@drawable/netflix_logo"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:contentDescription="Logo Netflix"/>
+
+    <TextView
+        android:text="Bienvenido a Netflix"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar" />
+
+
+</LinearLayout>
