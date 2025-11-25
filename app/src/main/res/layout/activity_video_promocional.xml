@@ -16,9 +16,4 @@
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
 
-    <WebView
-        android:id="@+id/webViewVideo"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="@color/netflix_dark_gray"/>
 </LinearLayout>

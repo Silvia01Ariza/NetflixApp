@@ -10,7 +10,7 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- Título -->
+        <!-- Título Principal -->
         <TextView
             android:id="@+id/txtTituloMisionVision"
             android:layout_width="wrap_content"
@@ -19,7 +19,8 @@
             android:textColor="@color/netflix_red"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+            android:fontFamily="sans-serif-black"
+            android:layout_marginBottom="25dp" />
 
         <!-- Misión -->
         <TextView
@@ -30,7 +31,8 @@
             android:textColor="@color/netflix_red"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="6dp"
+            android:fontFamily="sans-serif-black" />
 
         <TextView
             android:id="@+id/txtMisionDescripcion"
@@ -39,7 +41,8 @@
             android:text="Ofrecer entretenimiento global mediante contenido digital innovador y accesible para todos nuestros usuarios, proporcionando experiencias únicas en cada pantalla."
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif" />
 
         <!-- Visión -->
         <TextView
@@ -50,7 +53,8 @@
             android:textColor="@color/netflix_red"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="6dp"
+            android:fontFamily="sans-serif-black" />
 
         <TextView
             android:id="@+id/txtVisionDescripcion"
@@ -58,7 +62,8 @@
             android:layout_height="wrap_content"
             android:text="Convertirnos en la plataforma líder mundial en streaming, destacándonos por la calidad, variedad y originalidad de nuestros contenidos, siempre innovando para superar las expectativas del usuario."
             android:textColor="@color/white"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:fontFamily="sans-serif" />
 
     </LinearLayout>
 

@@ -18,8 +18,7 @@
             android:textSize="26sp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="@font/bebasneue" />
+            android:layout_gravity="center_horizontal" />
 
         <!-- Facebook -->
         <Button

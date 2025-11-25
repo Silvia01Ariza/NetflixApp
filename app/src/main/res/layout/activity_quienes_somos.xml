@@ -23,15 +23,6 @@
             android:layout_marginBottom="20dp"/>
 
         <!-- Imagen del equipo / integrante -->
-        <ImageView
-            android:id="@+id/imgIntegrante"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:src="@drawable/ic_launcher_foreground"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="20dp"
-            android:background="@color/netflix_dark_gray"
-            android:padding="6dp"/>
 
         <!-- Nombre del integrante -->
         <TextView

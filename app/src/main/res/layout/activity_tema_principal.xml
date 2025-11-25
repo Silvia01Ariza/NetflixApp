@@ -20,16 +20,6 @@
             android:paddingBottom="20dp"
             android:fontFamily="sans-serif-medium"/>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/netflix_banner"
-            android:scaleType="centerCrop"
-            android:background="#121212"
-            android:contentDescription="Banner Netflix"
-            android:layout_marginBottom="20dp"
-            />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
